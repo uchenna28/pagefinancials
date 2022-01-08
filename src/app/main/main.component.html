@@ -1,0 +1,184 @@
+<div class="main row my-4">
+    <div class="px-5 col-7">
+      <h4 class="px-3 py-5">Cards</h4>
+      <div class="row">
+        <div class="col-md-6">
+          <img height="310px" width="100%" src="../../assets/uba-debit.png"> 
+        </div>
+        <div class=" col-md-4 ">
+          <div class="d-flex justify-content-between">
+            <div class="turnup col-3">
+              <div class=" row">
+                <div class="col-md-4">
+                  <img src="../../assets/Mastercard-Logo.png" class="masterlogo" height="35px">
+    
+                </div>
+                <div class="dot col-3 py-2 d-flex">
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                  
+                </div>
+                <p class="col-4 num">1234</p>
+              </div>
+            </div>
+            <div class="turnup col-3">
+              <div class="invert row">
+                <div class="col-4">
+                  <img src="../../assets/Mastercard-Logo.png" class="masterlogo" height="35px">
+    
+                </div>
+                <div class="dot col-3 py-2 d-flex">
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                  
+                </div>
+                <p class="col-4 num">7654</p>
+              </div>
+            </div>
+            <div class="turnup col-3">
+              <div class="invert row">
+                <div class="col-4">
+                  <img src="../../assets/Mastercard-Logo.png" class="masterlogo" height="35px">
+    
+                </div>
+                <div class="dot col-3 py-2 d-flex">
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                  
+                </div>
+                <p class="col-4 num">2376</p>
+              </div>
+            </div>
+            <div class="turnup col-3">
+              <div class="invert row">
+                <div class="col-4">
+                  <img src="../../assets/Mastercard-Logo.png" class="masterlogo" height="35px">
+    
+                </div>
+                <div class="dot col-3 py-2 d-flex">
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                <div  class="dot1 col-3"> </div>  
+                  
+                </div>
+                <p class="col-4 num">5678</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-5">
+      <h4 class=" py-5"> Transfer Money</h4>
+        <div class="transfer card shadow">
+          <div class="d-flex py-4 px-3 mx-4"> 
+            <fa-icon [icon]="wallet" class="fa-2x iconsColor"></fa-icon>
+            <h5 class="py-2 px-3 my-1">Quick Transfer</h5>
+            <div class="images  mx-1">
+              <span><fa-icon class="addImg" [icon]="plus" ></fa-icon>  </span>
+              <span><img height="55px" width="55px" class="profileimg" src="../../assets/profile-img.jpeg" alt=""></span>
+              <span><img height="55px" width="55px" class="profileimg" src="../../assets/profile-img.jpeg" alt=""></span>
+              <span><img height="55px" width="55px" class="profileimg" src="../../assets/profile-img.jpeg" alt=""></span>
+              <span><img height="55px" width="55px" class="profileimg" src="../../assets/profile-img.jpeg" alt=""></span>
+            </div>
+          </div>
+          <div class="mt-3 d-flex">
+            <!-- <form [formGroup]="myform" > -->
+              <input type="text" placeholder=" 1234 5678 0987 6543  VISA" class=" text-muted inputContainer shadow" />
+              <span class=" iconCont py-3"><fa-icon [icon]="right" class="fa-1x px-4 py-3 text-white"></fa-icon></span>
+
+            <!-- </form> -->
+          </div>
+        </div>
+        
+    </div>
+
+    <div class="trans row">
+      <div class="px-5 col-7 ">
+        <h4 class="px-3 py-3">Transactions</h4>
+        <div class="transaction">
+           <div class="d-flex trans-row justify-content-around my-3">
+              <div class="transaction-icon py-3 px-4 shadow">
+                <fa-icon class="fa-2x text-success" [icon]="spotify"></fa-icon>
+              </div>
+              <div class="transaction-title">
+                Spotify
+              </div>
+              <div class="transaction-time">
+                Aug 25, 1:23 PM
+              </div>
+              <div class="transaction-amount">
+                -$56.90
+              </div>
+           </div>
+           <div class="d-flex trans-row justify-content-around my-3">
+            <div class="transaction-icon py-3 px-4 shadow">
+              <fa-icon class="fa-2x text-danger" [icon]="invision"></fa-icon>
+            </div>
+            <div class="transaction-title">
+              Invision
+            </div>
+            <div class="transaction-time">
+              Aug 25, 1:23PM
+            </div>
+            <div class="transaction-amount">
+              -$156.90
+            </div>
+          </div>
+          <div class="d-flex trans-row justify-content-around my-3">
+            <div class="transaction-icon py-3 px-4 shadow">
+              <fa-icon class="fa-2x text-primary" [icon]="restaurant"></fa-icon>
+            </div>
+            <div class="transaction-title">
+              Restaurant
+            </div>
+            <div class="transaction-time">
+              Aug 25, 1:23 PM
+            </div>
+            <div class="transaction-amount">
+              -$56.90
+            </div>
+          </div>
+          <div class="d-flex trans-row justify-content-around my-3">
+            <div class="transaction-icon py-3 px-4 shadow">
+              <fa-icon class="fa-2x text-dark" [icon]="apple"></fa-icon>
+            </div>
+            <div class="transaction-title">
+              Apple
+            </div>
+            <div class="transaction-time">
+              Aug 25, 1:23 PM
+            </div>
+            <div class="transaction-amount">
+              -$56.90
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-5 ">
+        <h4 class=" py-3"> Transaction Statistics</h4>
+          <div class="statistics shadow">
+            <div class="mt-3" >
+              <canvas baseChart 
+              [datasets]="barChartData"
+              [labels]="barChartLabels"
+              [options]="barChartOptions"
+              [plugins]="barChartPlugins"
+              [legend]="barChartLegend"
+              [type]="barChartType">
+            </canvas>
+            </div>
+          </div>
+      </div>
+
+    </div>
+</div>
